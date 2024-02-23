@@ -1,0 +1,83 @@
+/* header */
+
+
+.nav_left_custom {
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.nav_left_custom li {
+    transition: linear .4s;
+}
+
+.nav_left_custom li:hover a {
+    color: blue;
+}
+
+/* begin customer form contact left*/
+.custom_form {
+    border: 0 solid;
+    border-bottom: 1px solid #858686;
+    border-radius: 0;
+    background-color: #F6F8F9;
+    margin: 70px;
+    width: 80%;
+    outline: none;
+}
+
+.custom_form:focus {
+    outline: none;
+    box-shadow: none;
+    background-color: #F6F8F9;
+    border-color: none;
+}
+
+.custom_form:active {
+    border-color: none;
+}
+
+.custom_form::placeholder {
+    color: #212529;
+    padding: 3px;
+}
+
+/* end customer form contact left */
+
+
+/* begin customer form contact right */
+
+.custom_form_right {
+    margin: 70px;
+    padding-top: 13px;
+    border: 0 solid;
+    border-bottom: 1px solid #858686;
+    border-radius: 0;
+    background-color: #F6F8F9;
+    width: 80%;
+    outline: none;
+    margin-bottom: 30px;
+}
+
+.custom_form_right:focus {
+    outline: none;
+    box-shadow: none;
+    background-color: #F6F8F9;
+    border-color: none;
+}
+
+.custom_form_right:active {
+    border-color: none;
+}
+
+.custom_form_right_area {
+    margin: 56px;
+    margin-top: 19px;
+}
+
+.custom_form_right::placeholder {
+    color: #212529;
+    padding: 3px;
+}
+
+/* end customer form contact right */
